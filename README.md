@@ -1,4 +1,4 @@
-## A hook for activing message bar functionally
+## A hook for activing message bar functionally, based on Material-ui
 
 ### Install
 ```
