@@ -13,7 +13,7 @@ function createNotification(props) {
    div);
   setTimeout(() => {
     document.body.removeChild(div);
-  }, 6000);
+  }, props.duration + 500);
 }
 
 function SnackBarRender(props) {
