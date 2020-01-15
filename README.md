@@ -6,7 +6,7 @@ npm install react-usemessage-hook
 ```
 
 ### Usage
-```
+```js
 import React, { useEffect } from 'react'
 
 function App(){
