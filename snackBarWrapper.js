@@ -50,7 +50,6 @@ export function SnackbarWrapper(props) {
   const classes = useStyles1();
   const { className, message, onClose, variant, ...other } = props;
   const Icon = variantIcon[variant];
-    console.log(SnackbarContent)
   return (
     <SnackbarContent
       className={clsx(classes[variant], className)}

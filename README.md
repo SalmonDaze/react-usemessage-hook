@@ -10,6 +10,7 @@ npm install react-usemessage-hook
 
 ```js
 import React, { useEffect } from "react";
+import useMessage from "react-usemessage-hook";
 
 function App() {
   const msg = useMessage();
